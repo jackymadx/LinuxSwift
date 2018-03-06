@@ -1,0 +1,5 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "f5ffa8d02c4b2b05e8ffab912faef5e8"
+build_time: [573651249, 77118000]
+inputs:
+  "/home/jackycck/SwiftDev5/sources/main.swift": [573651221, 0]

@@ -1,0 +1,87 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "a"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "StringLiteralType"
+- "a"
+- "print"
+depends-member:
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P10Foundation13_CFBridgeable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/LibcShims.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/FoundationShims.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/HeapObject.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/RefCount.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/Visibility.h"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/dispatch/module.modulemap"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/jackycck/swiftDev/swiftDev/usr/lib/swift/shims/module.modulemap"
+interface-hash: "986461ec65fb81c7a842add364313992"

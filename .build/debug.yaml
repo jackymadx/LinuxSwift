@@ -1,0 +1,31 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["/home/jackycck/SwiftDev5/.build/debug/Hello.build/main.swift.o","/home/jackycck/SwiftDev5/.build/debug/Hello.swiftmodule","/home/jackycck/SwiftDev5/.build/debug/Hello"]
+  "main": ["/home/jackycck/SwiftDev5/.build/debug/Hello.build/main.swift.o","/home/jackycck/SwiftDev5/.build/debug/Hello.swiftmodule","/home/jackycck/SwiftDev5/.build/debug/Hello"]
+default: "main"
+commands: 
+  "<Hello.module>":
+    tool: swift-compiler
+    executable: "/home/jackycck/swiftDev/swiftDev/usr/bin/swiftc"
+    module-name: "Hello"
+    module-output-path: "/home/jackycck/SwiftDev5/.build/debug/Hello.swiftmodule"
+    inputs: ["/home/jackycck/SwiftDev5/sources/main.swift"]
+    outputs: ["/home/jackycck/SwiftDev5/.build/debug/Hello.build/main.swift.o","/home/jackycck/SwiftDev5/.build/debug/Hello.swiftmodule"]
+    import-paths: ["/home/jackycck/SwiftDev5/.build/debug"]
+    temps-path: "/home/jackycck/SwiftDev5/.build/debug/Hello.build"
+    objects: ["/home/jackycck/SwiftDev5/.build/debug/Hello.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/jackycck/SwiftDev5/.build/debug/ModuleCache"]
+    sources: ["/home/jackycck/SwiftDev5/sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<Hello.exe>":
+    tool: shell
+    description: "Linking ./.build/debug/Hello"
+    inputs: ["/home/jackycck/SwiftDev5/.build/debug/Hello.build/main.swift.o"]
+    outputs: ["/home/jackycck/SwiftDev5/.build/debug/Hello"]
+    args: ["/home/jackycck/swiftDev/swiftDev/usr/bin/swiftc","-Xlinker","-rpath=$ORIGIN","-g","-L/home/jackycck/SwiftDev5/.build/debug","-o","/home/jackycck/SwiftDev5/.build/debug/Hello","-emit-executable","/home/jackycck/SwiftDev5/.build/debug/Hello.build/main.swift.o"]
+
